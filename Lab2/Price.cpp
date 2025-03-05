@@ -2,44 +2,39 @@
 #include <iostream>
 #include <ostream>
 
-Price::Price(int h, short int k) : hrn(h), kop(k) {
+Price createPrice(int hrn, short kop) {
+    Price price;
+    price.hrn = hrn;
+    price.kop = kop;
+    normalizePrice(price);
+    return price;
 }
-
-Price Price::plus(const Price &second) const {
-    int totalHrn = hrn + second.hrn;
-    short int totalKop = kop + second.kop;
-
-    if (totalKop >= 100) {
-        totalHrn += totalKop / 100;
-        totalKop %= 100;
+void normalizePrice(Price& price) {
+    if (price.kop >= 100) {
+        price.hrn += price.kop / 100;
+        price.kop %= 100;
     }
-    return Price(totalHrn, totalKop);
 }
 
-Price Price::mult(int m) const {
-    int totalHrn = hrn * m;
-    short int totalKop = kop * m;
-    if (totalKop >= 100) {
-        totalHrn += totalKop / 100;
-        totalKop %= 100;
-    }
-    return Price(totalHrn, totalKop);
+Price addPrices(const Price& a, const Price& b) {
+    return createPrice(a.hrn + b.hrn, a.kop + b.kop);
 }
 
-void Price::round() {
-    int rem = kop % 10;
+Price multiplyPrice(const Price& price, int quantity) {
+    return createPrice(price.hrn * quantity, price.kop * quantity);
+}
+
+void round( Price& price) {
+    int rem = price.kop % 10;
     if (rem >= 5) {
-        kop = kop * 10 - rem;
+        price.kop = price.kop + 10 - rem;
     } else {
-        kop -= rem;
+        price.kop -= rem;
     }
-
-    if (kop >= 100) {
-        hrn += kop / 100;
-        kop %= 100;
-    }
+    normalizePrice(price);
 }
 
-void Price::print() const {
-    std::cout << hrn << "hrn. " << kop << "kop. " << std::endl;
+void print(const Price &price) {
+    std::cout << price.hrn << " hrn " << price.kop << " kop"<<"\n";
 }
+

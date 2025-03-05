@@ -4,34 +4,34 @@
 
 
 int main() {
-    std::ifstream inputFile("input.txt");
-    if (!inputFile.is_open()) {
-        std::cerr << "Can't open file" << std::endl;
+    FILE *file = fopen("input.txt", "r");
+    if (!file) {
+        std::cerr << "Не вдалося відкрити файл!" << std::endl;
         return 1;
     }
 
-    Price totalSum;
+    Price total={0,0};
     int hrn, quantity;
     short int kop;
 
     std::cout << "FILE" << std::endl;
-    while (inputFile >> hrn >> kop >> quantity) {
+    while (fscanf(file, "%*[^,], %d %*s %d %*[^,], %d;\n", &hrn, &kop, &quantity) == 3) {
         std::cout << hrn << " hrn " << kop << " kop " << quantity << std::endl;
-        Price price(hrn, kop);
-        Price productTotal = price.mult(quantity);
-        totalSum = totalSum.plus(productTotal);
+        Price itemPrice = createPrice(hrn, kop);
+        Price totalItemPrice = multiplyPrice(itemPrice, quantity);
+        total = addPrices(total, totalItemPrice);
     }
 
-    inputFile.close();
+    fclose(file);
 
     std::cout << "Total: ";
-    totalSum.print();
+    print(total);
 
-    Price roundedTotal = totalSum;
-    roundedTotal.round();
+    Price roundedTotal = total;
+    round(roundedTotal);
 
     std::cout << "Rounded: ";
-    roundedTotal.print();
+    print(roundedTotal);
 
     return 0;
 }

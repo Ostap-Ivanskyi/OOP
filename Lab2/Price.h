@@ -5,14 +5,14 @@
 struct Price {
     int hrn;
     short int kop;
-
-    Price(int hrn=0, short kop=0);
-
-    Price plus (const Price& second) const;
-    Price mult (int m)const;
-
-    void round();
-    void print()const;
 };
+
+Price createPrice(int hrn, short kop);
+void normalizePrice(Price &price);
+Price addPrices (const Price& a,const Price& b);
+Price multiplyPrice (const Price& price,int m);
+
+void round(Price& price);
+void print(const Price& price);
 
 #endif //PRICE_H

@@ -100,13 +100,6 @@
 			[
 				2
 			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				3
-			]
 		}
 	],
 	"sources" : 
@@ -127,11 +120,6 @@
 			"backtrace" : 1,
 			"path" : "Price.h",
 			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "input.txt",
-			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "EXECUTABLE"
