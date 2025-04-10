@@ -19,7 +19,6 @@ struct Triangle {
     bool isOnEdge(const Point& p) const;
 };
 
-// Helper functions
 double distance(const Point& p1, const Point& p2);
 
 
