@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ostap/OneDrive/\u0420\u043e\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u0456\u043b/Edu 1.2/OOP/Lab2/cmake-build-debug"
+			"value" : "d:/Edu 1.2/OOP/Lab5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ostap/OneDrive/\u0420\u043e\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u0456\u043b/Edu 1.2/OOP/Lab2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Edu 1.2/OOP/Lab5/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ostap/OneDrive/\u0420\u043e\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u0456\u043b/Edu 1.2/OOP/Lab2"
+			"value" : "D:/Edu 1.2/OOP/Lab5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Lab2"
+			"value" : "C:/Program Files (x86)/Lab5"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Lab2"
+			"value" : "Lab5"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,7 +1270,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Lab2_BINARY_DIR",
+			"name" : "Lab5_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1279,10 +1279,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ostap/OneDrive/\u0420\u043e\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u0456\u043b/Edu 1.2/OOP/Lab2/cmake-build-debug"
+			"value" : "D:/Edu 1.2/OOP/Lab5/cmake-build-debug"
 		},
 		{
-			"name" : "Lab2_IS_TOP_LEVEL",
+			"name" : "Lab5_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1294,7 +1294,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Lab2_SOURCE_DIR",
+			"name" : "Lab5_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ostap/OneDrive/\u0420\u043e\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u0456\u043b/Edu 1.2/OOP/Lab2"
+			"value" : "D:/Edu 1.2/OOP/Lab5"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

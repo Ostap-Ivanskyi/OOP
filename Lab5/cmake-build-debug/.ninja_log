@@ -1,0 +1,22 @@
+# ninja log v6
+7	675	7665970967288903	CMakeFiles/Lab5.dir/Bicycle.cpp.obj	65e7ab764bc653cf
+16	697	7665970967371405	CMakeFiles/Lab5.dir/ElectricCar.cpp.obj	cd7b1b3f36ed74f3
+1	719	7665970967229107	CMakeFiles/Lab5.dir/main.cpp.obj	6f15ad4c2ee4d0b6
+12	720	7665970967330218	CMakeFiles/Lab5.dir/Car.cpp.obj	540571102dbc8e3c
+19	723	7665970967401399	CMakeFiles/Lab5.dir/MountainBike.cpp.obj	b438f0ae22b6fa46
+23	749	7665970967452667	CMakeFiles/Lab5.dir/Vehicle.cpp.obj	f817097e76c2fdc
+750	852	7665970974710393	Lab5.exe	5144d729d0d5386a
+21	608	7665973033954505	CMakeFiles/Lab5.dir/MountainBike.cpp.obj	b438f0ae22b6fa46
+11	621	7665973033852692	CMakeFiles/Lab5.dir/Bicycle.cpp.obj	65e7ab764bc653cf
+17	626	7665973033913863	CMakeFiles/Lab5.dir/ElectricCar.cpp.obj	cd7b1b3f36ed74f3
+6	664	7665973033802142	CMakeFiles/Lab5.dir/main.cpp.obj	6f15ad4c2ee4d0b6
+14	691	7665973033883182	CMakeFiles/Lab5.dir/Car.cpp.obj	540571102dbc8e3c
+25	720	7665973033994897	CMakeFiles/Lab5.dir/Vehicle.cpp.obj	f817097e76c2fdc
+720	815	7665973040942078	Lab5.exe	5144d729d0d5386a
+16	693	7665974016833409	CMakeFiles/Lab5.dir/Car.cpp.obj	540571102dbc8e3c
+25	700	7665974016925469	CMakeFiles/Lab5.dir/MountainBike.cpp.obj	b438f0ae22b6fa46
+12	721	7665974016792172	CMakeFiles/Lab5.dir/Bicycle.cpp.obj	65e7ab764bc653cf
+6	721	7665974016741165	CMakeFiles/Lab5.dir/main.cpp.obj	6f15ad4c2ee4d0b6
+20	736	7665974016874345	CMakeFiles/Lab5.dir/ElectricCar.cpp.obj	cd7b1b3f36ed74f3
+30	786	7665974016966564	CMakeFiles/Lab5.dir/Vehicle.cpp.obj	f817097e76c2fdc
+786	885	7665974024536534	Lab5.exe	5144d729d0d5386a
